@@ -1,0 +1,192 @@
+.body{
+    background-color: rgb(82, 81, 81);
+}
+.calculadora{
+    justify-content: center;
+    margin: 0 34.24%;
+    padding-left: center ;
+}
+
+#case{
+    background-color: yellow;
+    border: 5px solid purple;
+    justify-content: center;
+    padding: auto;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+}
+
+#answ{
+    background-color: white;
+    border: 2px black solid;
+    padding: 20px;
+    margin: 20px 20px 1px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dentro{
+    display: flex;
+    flex-direction:row;
+}
+
+.numb{
+    margin: 20px 10px 30px 30px;
+    padding: 20px;
+    align-items: center;
+    background-color: purple;
+    position: relative;
+    float: left;
+}
+
+.numb>div{
+    margin-left:10px;
+    padding: 5px;
+}
+
+.operator{
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: purple;
+    align-items: center;
+    float: right;
+    position: relative;
+}
+
+.operator > div{
+    padding: 5px;
+}
+
+#btOFF{
+    padding:10px 20px;
+}
+
+#btDEL{
+    padding:10px 22px;
+}
+
+#btp{
+    padding: 10px 22px;
+}
+
+#btAns{
+    padding:10px 22px;
+}
+
+#btON{
+    padding: 10px 25px;
+}
+
+#btm {
+    padding:10px 29px;
+}
+
+#btP {
+    padding:10px 31px;
+}
+
+#btM {
+    padding:10px 33px;
+}
+
+#btD{
+    padding: 10px 33px;
+}
+
+.button{
+    transition-duration:0.2s;
+    background-color: #AEAEAE;
+    padding: 10px 20px;
+    
+}
+
+.button:hover{
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width:800px){
+    .calculadora{
+        justify-content: center;
+        margin:auto;
+        padding:0%;
+    }
+}
+
+@media screen and (max-width: 520px){ 
+    .calculadora{
+        justify-content: center;
+        margin:center;
+        
+        padding: 10px 0 10px 0;
+    }
+
+    #dentro{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .numb{
+        margin: 20px 30px 30px 30px;
+        padding: 20px;
+        align-items: center;
+        background-color: purple;
+        position: relative;
+        float: left;
+    }
+
+    .operator{
+        margin: 20px 30px 20px 30px;
+        padding: 20px;
+        background-color: purple;
+        align-items: center;
+        float: right;
+        position: relative;
+    }
+
+    .operator > div{
+        padding-left: 19px;
+    }
+    
+}
+
+@media screen and (max-width: 301px) {
+    .calculadora{
+        justify-content: center;
+        margin:auto;
+        padding: 10px 0 10px 0;
+    }
+    #dentro{
+        display: flex;
+        flex-direction:column;
+    }
+    .numb{
+        margin: 10px;
+        padding: auto;
+        align-items: center;
+        background-color: purple;
+        position: relative;
+        float: left;
+    }
+
+    .operator{
+        margin: 10px;
+        padding: auto;
+        background-color: purple;
+        align-items: center;
+        float: right;
+        position: relative;
+    }
+    .operator > div{
+        padding-left: auto;
+    }
+    
+}
