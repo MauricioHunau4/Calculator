@@ -1,5 +1,5 @@
 # Calculator
-First and simple proyect for using a calculator online for more than just single digit with HTML, CSS and JavaScript.
+First and simple proyect for using an online calculator for more than just single digit with HTML, CSS and JavaScript.
 
 ![Captura](https://user-images.githubusercontent.com/69403501/138966521-fee0216e-7fab-4c86-8aa0-1299ba7441fd.PNG)
 
